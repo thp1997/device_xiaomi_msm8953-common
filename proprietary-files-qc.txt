@@ -440,7 +440,7 @@ etc/permissions/qcrilhook.xml
 etc/permissions/telephonyservice.xml
 framework/QtiTelephonyServicelibrary.jar
 framework/qcrilhook.jar
-framework/qti-telephony-common.jar|9187f7a9995ba7e65eb99539aba1a5720637c3b3
+#framework/qti-telephony-common.jar|9187f7a9995ba7e65eb99539aba1a5720637c3b3
 -priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 vendor/bin/ATFWD-daemon
 vendor/bin/netmgrd
