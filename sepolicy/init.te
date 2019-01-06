@@ -6,3 +6,6 @@ allow init proc_boot_reason:file r_file_perms;
 
 # leds
 allow init sysfs_leds:lnk_file read;
+
+# wfd
+allow init { tee -tzdatacheck -ueventd -vendor_init -wfdservice }:process noatsecure;
